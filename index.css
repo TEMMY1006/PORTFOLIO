@@ -403,6 +403,7 @@ nav ul {
 }
 .div1 {
 grid-template-columns: auto;
+margin-left:15px;
 }
 .firstsection {
   flex-direction: column;
@@ -419,6 +420,10 @@ grid-template-columns: auto;
 }
 .firstsection {
   gap: 50px;
+  width:auto;
+}
+.btnclass {
+  flex-direction: column;
 }
 .experience {
   gap: 30px;
@@ -430,6 +435,21 @@ grid-template-columns: auto;
   .header-section p {
   width: auto;
 }
+.div1 {
+  grid-template-columns: auto auto;}
+}
+.firstsection {
+  flex-direction:column;
+  margin-left: 80px;
+}
+.div5 {
+  margin-left: 180px;
+}
+.skillz {
+  margin-left: 100px;
+}
+.fulldiv {
+  margin-left: 60px;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
